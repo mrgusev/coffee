@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/coffee.css">
+
+        <link rel="stylesheet" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.css">
+    </head>
+    <body>
+        <div  style=" width: 210px; margin: 100px auto;" >
+       <svg  class="place" width="210" height="400"  xmlns="http://www.w3.org/2000/svg">
+            <!--<path id="p" fill="none" stroke="#BFBFBF" stroke-dasharray="166.7989501953125 166.7989501953125" stroke-width="15" stroke-linecap="round" stroke-miterlimit="10"-->
+                  <!--d="M294.505,65.133-->
+	<!--c-14,0-19.311,20.49-33.597,20.49c-14.286,0-18.153-19.908-34.653-20.367c-16.5,0.459-20.367,20.429-34.653,20.429-->
+	<!--c-14.286,0-19.597-20.398-33.597-20.398c-19,0-17.5,20.413-36.75,20.413s-17.75-20.406-36.75-20.406-->
+	<!--c-14,0-19.311,20.409-33.597,20.409s-18.156-20.03-34.656-20.489"/>-->
+
+           <g>
+               <ellipse opacity="0.15" cx="114.098" cy="320.167" rx="96.098" ry="40.167"/>
+               <path fill="none" stroke="#E07747" stroke-width="21" stroke-miterlimit="10" d="M90.667,249.167
+		c0,27.154-3.929,41.899-27.677,41.899S12,277.183,12,250.029S27.585,206.5,51.333,206.5S90.667,222.013,90.667,249.167z"/>
+               <path fill="#FA844F" d="M48,170v136h0.023c0.492,23.031,34.776,41,78.477,41s77.984-17.969,78.477-41H205V170H48z"/>
+               <ellipse fill="#FA844F" stroke="#FB9D72" stroke-width="10" stroke-miterlimit="10" cx="126.5" cy="172.5" rx="73.5" ry="36.5"/>
+               <path fill="#E07747" d="M126.992,150.5c33.944,0,62.074,11.702,67.177,27c0.543-1.629,0.832-3.299,0.832-5
+		c0-17.673-30.448-32-68.008-32s-68.008,14.327-68.008,32c0,1.701,0.288,3.371,0.832,5C64.917,162.202,93.047,150.5,126.992,150.5z"
+                       />
+               <path fill="#91562A" d="M126.992,150.5c-33.944,0-62.074,11.702-67.177,27c5.102,15.298,33.232,27,67.177,27
+		s62.074-11.702,67.177-27C189.066,162.202,160.936,150.5,126.992,150.5z"/>
+               <path fill="#E07747" d="M48,187.667V306h0.023c0.492,23.031,34.776,41,78.477,41c33.127,0,60.826-10.33,72.513-25.358
+		C188.42,331.876,164.872,339,137.5,339c-37.279,0-64.167-18-72.167-38C59.282,285.873,56.5,200.167,48,187.667z"/>
+           </g>
+            <g id="smoke">
+               <path id="p2"  stroke-dasharray="147.129 147.129" opacity="0.4" fill="none" stroke="#BFBFBF" stroke-width="20" stroke-linecap="round" stroke-miterlimit="10" d="
+        M99.094,24.291c0,14,10.49,20.311,10.49,34.597s-9.908,17.153-10.367,33.653c0.459,16.5,10.429,21.367,10.429,35.653
+        s-10.398,18.597-10.398,32.597c0,19,10.413,18.5,10.413,37.75s-10.406,16.75-10.406,35.75c0,14,10.409,20.311,10.409,34.597
+        s-10.03,17.156-10.489,33.656"/>
+               <path id="p1"  stroke-dasharray="147.129 147.129" opacity="0.4" fill="none" stroke="#BFBFBF" stroke-width="20" stroke-linecap="round" stroke-miterlimit="10" d="
+        M143.094,24.291c0,14,10.49,20.311,10.49,34.597s-9.908,17.153-10.367,33.653c0.459,16.5,10.429,21.367,10.429,35.653
+        s-10.398,18.597-10.398,32.597c0,19,10.413,18.5,10.413,37.75s-10.406,16.75-10.406,35.75c0,14,10.409,20.311,10.409,34.597
+        s-10.03,17.156-10.489,33.656"/>
+            </g>
+        </svg>
+
+        </div>
+        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/jquery-ui/ui/jquery-ui.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-ui-slider/src/slider.js"></script>
+        <script>
+            var app = angular.module('app', ['ui.slider']);
+
+        </script>
+    </body>
+</html>

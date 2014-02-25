@@ -1,0 +1,32 @@
+body{
+    background-color: #709883;
+}
+#p1, #p2{
+    /*stroke-dashoffset: 166;*/
+    /*stroke-dashoffset: 333.598;*/
+    -webkit-animation: myfirst 2s linear infinite;
+}
+
+#smoke{
+    -webkit-transform: translateY(-125px);
+
+}
+
+@-webkit-keyframes svgfirst /* Firefox */
+{
+    0%   {margin-left: -278.253px;}
+    100%   {margin-left: -139px;}
+}
+
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+    0%   {
+        -webkit-transform: translateY(139px);
+        stroke-dashoffset: 294.257;
+    }
+    100%   {
+        -webkit-transform: translateY(0px);
+        stroke-dashoffset: 147.129;
+    }
+}
